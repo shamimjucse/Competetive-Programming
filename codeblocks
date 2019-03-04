@@ -1,0 +1,4 @@
+sudo add-apt-repository ppa:pasgui/ppa
+sudo apt-get update
+sudo apt-get install codeblocks
+sudo apt-get install codeblocks-contrib
