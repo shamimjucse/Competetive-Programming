@@ -1,7 +1,0 @@
-<h1>Codeblocks 17.12 installation on Ubuntu 16.04/17.04/18.04 ::<h1>
-Due to various bugs in the codeblocks version 16 on Ubuntu 18.04, it is recommended to use the latest version here. Need to be installed by adding a ppa source:
-
-sudo add-apt-repository ppa:pasgui/ppa
-sudo apt-get update
-sudo apt-get install codeblocks
-sudo apt-get install codeblocks-contrib

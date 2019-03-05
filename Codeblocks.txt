@@ -1,0 +1,26 @@
+Codeblocks 17.12 installation with Contrib-Plugin on Ubuntu 16.04/17.04/18.04 ::
+
+Due to various bugs in the codeblocks version 16 on Ubuntu 18.04,
+it is recommended to use the latest version here.
+Need to be installed by adding a ppa source:
+
+Open terminal / press Ctrl+Alt+T and paste : 
+
+* sudo add-apt-repository ppa:pasgui/ppa
+* sudo apt-get update
+* sudo apt-get install codeblocks
+* sudo apt-get install codeblocks-contrib
+
+If pc contains any existing codeblocks, remove it first.
+* sudo apt remove codeblocks
+
+If you face any problem to remove codeblocks dependency paste,
+* sudo apt-get install -f
+* dpkg --list | grep -i codeblocks
+And remove all dependency manually by following command,
+* sudo apt-get purge <dependency_name>
+Last run this commannd,
+* sudo apt autoremove
+
+Now install codeblocks 17.12 again by following above command, 
+it will work successfully.
